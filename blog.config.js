@@ -17,7 +17,7 @@ const BLOG = {
   showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
-  ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
+  ogImageGenerateURL: 'https://og-image-craigary.vercel.app/**%E5%91%A8**.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fhyper-color-logo.svg&images=&widths=50&heights=50', // The link to generate OG image, don't end with a slash
   socialLink: 'https://zhoupeng.me/about',
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
